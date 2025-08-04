@@ -1,0 +1,65 @@
+body {
+  font-family: sans-serif;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.keyboard {
+  background: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.row {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.key {
+  background: #e0e0e0;
+  border: none;
+  margin: 3px;
+  padding: 15px;
+  min-width: 45px;
+  border-radius: 6px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.key:hover {
+  background: #d0d0d0;
+}
+
+.key.space {
+  min-width: 300px;
+}
+
+.key.tab {
+  min-width: 70px;
+}
+
+.key.capslock {
+  min-width: 80px;
+}
+
+.key.enter {
+  min-width: 90px;
+}
+
+.key.shift {
+  min-width: 100px;
+}
+
+.key.backspace {
+  min-width: 90px;
+}
+
+.key.ctrl, .key.alt, .key.fn, .key.win {
+  min-width: 60px;
+}
